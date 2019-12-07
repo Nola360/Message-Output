@@ -1,0 +1,50 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: silver;
+  color: black;
+  font-family: 'calibri', sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  background: white;
+  flex: 0 0 80%;
+}
+
+button {
+  display: block;
+  font-size: 2rem;
+  margin: 1rem auto;
+  color: black;
+  background: silver;
+  border-radius: 5px;
+  outline: none;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+input[type=text] {
+  padding: .5rem;
+  margin: 1rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  border: 3px solid green;
+}
+
+input[type=text] {
+  box-shadow: 0 0 10px green;
+}
+
+#messageOut {
+  margin: .5rem 0;
+  color: green;
+}
+  
