@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: silver;
+  background: rgb(60, 142, 219);
   color: black;
-  font-family: 'calibri', sans-serif;
+  font-family: 'roboto','calibri', sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
 }
 
 .container {
@@ -20,10 +24,16 @@ button {
   display: block;
   font-size: 2rem;
   margin: 1rem auto;
-  color: black;
-  background: silver;
+  color: white;
+  background: rgb(60, 142, 219);
   border-radius: 5px;
   outline: none;
+  font-family: 'roboto';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px 40px;
+  letter-spacing: 1px;
 }
 
 button:hover {
@@ -36,11 +46,11 @@ input[type=text] {
   margin: 1rem;
   border-radius: 5px;
   font-size: 1.5rem;
-  border: 3px solid green;
+  border: 3px solid rgb(3, 91, 255);
 }
 
 input[type=text] {
-  box-shadow: 0 0 10px green;
+  box-shadow: 0 0 10px rgb(0, 102, 255);
 }
 
 #messageOut {
